@@ -5,7 +5,9 @@ class Wallet extends Component {
         return (
             <div className="col-sm-4">
                 <div className="card">
-                    <span className="text-center">{user.name}</span>
+                    <span className="text-center">
+                        <strong>{user.name}</strong>
+                    </span>
 
                     <div className="card-body">
                         <h5 className="card-title text-center">

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 class Recipt extends Component {
     newPay = (userFrom) => {
-        const { gerenateBlock } = this.props;
+        const { newUnconfirmblock } = this.props;
         const userTo = document.getElementById("slect").value;
         const amount = document.getElementById("amount").value;
         const fund = document.getElementById("fund").value;
 
-        gerenateBlock(userFrom, userTo, amount, fund, 0);
+        newUnconfirmblock(userFrom, userTo, amount, fund);
     };
     render() {
         const { user, listusers } = this.props;
@@ -19,7 +19,9 @@ class Recipt extends Component {
         return (
             <div className="col-sm-4">
                 <div className="card">
-                    <span className="text-center">Recipt</span>
+                    <span className="text-center">
+                        <strong>Recipt</strong>
+                    </span>
 
                     <div className="card-body">
                         <label>Select user</label>
