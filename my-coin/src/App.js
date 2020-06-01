@@ -243,7 +243,6 @@ class App extends Component {
                         checkWallet={this.checkWallet}
                         newUnconfirmblock={this.newUnconfirmblock}
                         giveReward={this.giveReward}
-                        forMiner={this.state.forMiner}
                         miner={this.state.miner}
                     />
                 </div>

@@ -1,13 +1,7 @@
 import React, { Component } from "react";
 class Miner extends Component {
     render() {
-        const {
-            hasUnconfrim,
-            confirmBlock,
-            forMiner,
-            user,
-            miner,
-        } = this.props;
+        const { hasUnconfrim, confirmBlock, user, miner } = this.props;
 
         return (
             <div className="col-sm-4 ">

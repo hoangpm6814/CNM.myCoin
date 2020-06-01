@@ -12,7 +12,6 @@ class Info extends Component {
             confirmBlock,
             checkWallet,
             newUnconfirmblock,
-            forMiner,
             miner,
         } = this.props;
         return (
@@ -28,8 +27,6 @@ class Info extends Component {
                     user={user}
                     hasUnconfrim={hasUnconfrim}
                     confirmBlock={confirmBlock}
-                    forMiner={forMiner}
-                    user={user}
                     miner={miner}
                 />
             </div>
