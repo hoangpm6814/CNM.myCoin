@@ -14,6 +14,6 @@ https://youtu.be/HU_iinGfpiQ
 https://github.com/huuthangnguyen98/CNM.myCoin
 
 -----ReactJS App-------
-to run
 > cd my-coin
-> serve -s build
+> npm i
+> npm start
