@@ -7,6 +7,8 @@ class Recipt extends Component {
         const fund = document.getElementById("fund").value;
 
         newUnconfirmblock(userFrom, userTo, amount, fund);
+        document.getElementById("amount").value = "";
+        document.getElementById("fund").value = "";
     };
     render() {
         const { user, listusers } = this.props;

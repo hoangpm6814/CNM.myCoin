@@ -42,7 +42,7 @@ class Wallet extends Component {
                         <div
                             className="modal fade"
                             id="historyModal"
-                            tabindex="-1"
+                            tabIndex="-1"
                             role="dialog"
                             aria-labelledby="historyModal"
                             aria-hidden="true"

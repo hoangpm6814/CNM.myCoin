@@ -11,7 +11,9 @@ class User extends Component {
                     <div className="card-body align-self-center">
                         <button
                             className="btn btn-primary btn-sm"
-                            onClick={this.props.selectUser.bind(this, name)}
+                            onClick={() => {
+                                this.props.selectUser(name);
+                            }}
                         >
                             View
                         </button>
