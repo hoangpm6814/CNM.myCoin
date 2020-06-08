@@ -8,7 +8,7 @@ https://coindemo.io/
 https://viblo.asia/p/phan-1-tu-tao-ra-mot-cong-nghe-blockchain-cua-rieng-minh-4P856031ZY3
 
 -----Link demo---------
-https://youtu.be/pahRt2QbOcA
+https://youtu.be/rv1OK84f2k4
 
 -----Link Github-------
 https://github.com/huuthangnguyen98/CNM.myCoin
