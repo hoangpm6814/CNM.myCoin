@@ -17,3 +17,5 @@ https://github.com/huuthangnguyen98/CNM.myCoin
 > cd my-coin
 > npm i
 > npm start
+
+...app will run in https://localhost:3000
